@@ -24,7 +24,7 @@ const body=document.querySelector("body");
         // pop_msg.innerText="Would You like to have Your's PortFolio Now!!";
         // pop_btn.innerText="X";
 
-    },4000)
+    },200000)
 
     function close_pop(){
         pop_msg.remove();
