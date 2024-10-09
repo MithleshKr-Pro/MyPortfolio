@@ -32,9 +32,13 @@ const body=document.querySelector("body");
 
     const testimonials=document.querySelector("review_box_parent");
 
-    // setTimeout(()=>{
-    //     testimonials.innerHTML=`
-        
-    //     `;
-
-    // },2500)
+    $(document).ready(function(){
+        $('.carousel').carousel({
+            padding:200
+        });
+        autoplay();
+        function autoplay() {
+            $(".carousel").carousel("next");
+            setTimeout(autoplay,4500);
+        }
+      });

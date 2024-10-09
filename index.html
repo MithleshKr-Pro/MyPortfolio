@@ -223,7 +223,7 @@
             <div  class="navbar-content">CONTACT US</div>
         </div>
     </div>
-    <div class="front_font"><span style="color: #364bc5;">Have a Look at my<div style="color: darkgoldenrod;">PortFolio...</div></span></div>
+    <div class="front_font"><div style="color: #364bc5; padding-right: 2rem; width: 100vw;">Have a Look at my </div><div style="color: darkgoldenrod;" class="textAnimation"> PortFolio...</div></div>
     <div class="portfolio">
     <div class="intro">
         <h2 style="margin-bottom: 2rem;">Introduction</h2>
@@ -330,7 +330,8 @@
         </p>
         </div>
         </div>
-        <button class="slider_Btn2">&gt</button>
+        <button class="slider_Btn2">&gt</button> 
+
     </div>
 
     <div class="about">
@@ -415,5 +416,21 @@
     </section>
 </div>
 <script src="script.js"></script>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+var typed= new Typed(".textAnimation",{
+    strings:["PortFolio...","Resume","Web-Designing"],
+    loop:true,
+    typeSpeed:60,
+    backSpeed:50,
+    startDelay:1500,
+    backDelay:3000
+
+    })
+    </script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
 </body>
 </html>
